@@ -7,6 +7,7 @@
 class imageoptim {
   package { 'ImageOptim':
     provider => 'compressed_app',
-    source   => 'http://imageoptim.com/ImageOptim.tbz2'
+    source   => 'http://imageoptim.com/ImageOptim.tbz2',
+    flavor   => 'tbz'
   }
 }
