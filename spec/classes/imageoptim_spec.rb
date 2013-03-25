@@ -1,11 +1,9 @@
 require 'spec_helper'
 
 describe 'imageoptim' do
-  it do
-    should contain_package('ImageOptim').with({
-      :provider => 'compressed_app',
-      :source   => 'http://imageoptim.com/ImageOptim.tbz2',
-      :flavor   => 'tbz'
-    })
-  end
+
+  it { should contain_class('imageoptim') }
+  it { should contain_package('ImageOptim').with_provider('compressed_app') }
+  it { should contain_package('ImageOptim').with_source('http://imageoptim.com/ImageOptim.tbz2') }
+
 end
