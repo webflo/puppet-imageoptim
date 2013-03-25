@@ -1,4 +1,4 @@
-# ImageOptim Puppet Module for Boxen
+# ImageOptim Puppet Module for Boxen [![Build Status](https://travis-ci.org/webflo/puppet-imageoptim.png?branch=master)](https://travis-ci.org/webflo/puppet-imageoptim)
 
 Install [ImageOptim](http://imageoptim.com/) for Mac OS X.
 
